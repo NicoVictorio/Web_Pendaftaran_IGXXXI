@@ -1,0 +1,63 @@
+.register-page {
+    background: url("../background/bg_register.png") no-repeat;
+    background-size: cover;
+}
+
+.horizontal-line {
+    background: #EA435E;
+    border: 2px solid #EA435E;
+    opacity: 1;
+}
+
+.register-text {
+    font-size: 48px;
+    color: #EA435E;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.title-text {
+    font-size: 56px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.btn-register {
+    background: rgba(255,255,255,0);
+    border: 2px solid #FFFFFF;
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.btn-register:hover {
+    transform: scale(1.05) translateX(15px);
+    background: rgba(255,255,255,0.1);
+}
+
+@media only screen and (max-width: 960px) {
+    .register-page {
+        background-position: right center;
+    }
+    
+    .register-text {
+        font-size: 24px;
+    }
+
+    .title-text {
+        font-size: 32px;
+        color: #EA435E;
+    }
+
+    .btn-register {
+        border: 2px solid #EA435E;
+        color: #EA435E;
+    }
+
+    .btn-register:hover {
+        transform: scale(1.05) translateX(15px);
+        background: rgba(255,255,255,0.1);
+    }
+}
