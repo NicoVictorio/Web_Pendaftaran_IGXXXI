@@ -21,13 +21,14 @@
             margin-left:0;
         }        
         .horizontal-line {
-            background: #EA435E;
-            border: 2px solid #EA435E;
+            background: #2c56a7;
+            border: 2px solid #2c56a7;
             opacity: 1;
         }
         .faq-text {
+            font-family: "Montserrat", sans-serif;
             font-size: 48px;
-            color: #ea435e;
+            color: #2c56a7;
             font-weight: 700;
             letter-spacing: 3px;
         }
@@ -36,27 +37,33 @@
         }
         .card-title{
             margin-top: 40px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            color:#2c56a7;
         }
         .card{
-            font-family:"TT Norms Light",sans-serif;
-            color:#ffffff;
+            font-family:"Montserrat",sans-serif;
+            color:#2c56a7;
             letter-spacing:0px;
             text-align:justify;
         }
         .card-body{
             border-radius: 20px;
             transition: all 0.2s ease;
+            background: #c3e2f6; 
+            padding:1.5rem;
         }
         .card-body:hover{
             -webkit-transform:scale(1.05);
             box-shadow: 0 6px 10px rgba(0,0,0,.08)
         }
         .card-text{
-            font-weight:100;
+            font-size: 20px;
+            font-weight: 600;
         }
     </style>    
 
-<body style="background: url('{{ asset('assets') }}/background/Background Faq_1.png') top / cover no-repeat;background-attachment: fixed;">
+<body style="background: url('{{ asset('assets') }}/background/Background_FAQ.png') top / cover no-repeat;background-attachment: fixed;">
     <div class="faq-page pt-4 px-5">
 
         {{--FAQ Title--}}
@@ -76,8 +83,8 @@
                 <div class="card" style="border-style: none;background: rgba(255,255,255,0);padding-bottom:1rem;padding-top:1rem;">
 
                 <!----FAQ Card---->
-                    <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Industrial Games XXX diadakan secara online atau offline?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                    <h4 class="card-title">Industrial Games XXX diadakan secara online atau offline?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Industrial Games XXX diadakan secara hybrid, dimana babak game besar dan semi final diadakan secara online dan babak final diadakan secara offline di Universitas Surabaya.</p>
@@ -86,8 +93,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                    <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Satu tim terdiri dari berapa orang? Apa boleh berbeda sekolah?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                    <h4 class="card-title">Satu tim terdiri dari berapa orang? Apa boleh berbeda sekolah?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Satu tim terdiri dari 3 orang dari sekolah yang sama. Tim boleh terdiri dari angkatan yang berbeda.</p>
@@ -96,8 +103,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Industrial Games XXX diadakan kapan?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Industrial Games XXX diadakan kapan?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Hari H Industrial Games akan diadakan pada 20-21 Agustus 2022, dan 27-28 Agustus 2022.</p>
@@ -106,8 +113,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Bagaimana cara mendaftar Industrial Games XXX?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Bagaimana cara mendaftar Industrial Games XXX?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada atau dapat mendaftar langsung tanggal 10 Juni 2021 di East Atrium Grand City Surabaya dan dapatkan voucher menarik.</p>
@@ -116,8 +123,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Berapa biaya pendaftaran Industrial Games XXX?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Berapa biaya pendaftaran Industrial Games XXX?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Pendaftaran Early Bird (23 Mei-30 Juni 2022) dikenakan biaya Rp60.000 dan pendaftaran Normal (1 Juli - 31 Juli) dikenakan biaya Rp75.000 </p>
@@ -126,18 +133,18 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Materi apa saja yang akan digunakan selama perlombaan Industrial Games XXX?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Materi apa saja yang akan digunakan selama perlombaan Industrial Games XXX?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Materi yang akan diguanakan adalah pengetahuan umum, pengetahuan umum Teknik Industri, dan IPA SMA.</p>
+                        Materi yang akan digunakan adalah pengetahuan umum, pengetahuan umum Teknik Industri, dan IPA SMA.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Ada berapa babak di Industrial Games XXX?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Ada berapa babak di Industrial Games XXX?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Peserta akan bermain dalam 3 babak utama, yaitu Game Besar, Semifinal, dan Final.</p>
@@ -146,8 +153,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Bagaimana bentuk lomba IG XXX? Apakah essay, cerdas cermat, atau desain?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Bagaimana bentuk lomba IG XXX? Apakah essay, cerdas cermat, atau desain?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Sesuai namanya, Industrial Games adalah kompetisi yang dikemas dalam bentuk games yang didasarkan pada industri seperti simulasi industri, proses distribusi, dan lain-lainnya yang menguji kreativitas dan kemampuan strategi peserta dengan pengerjaan soal sebagai salah satu komponen dalam games.</p>
@@ -156,8 +163,8 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title" style="font-family: Amiko Bold, sans-serif; color:#ea435e;">Apakah peserta kelas 12 boleh ikut?</h4>
-                    <div class="card-body" style="background: #8888ba; padding:1.5rem;">
+                <h4 class="card-title">Apakah peserta kelas 12 boleh ikut?</h4>
+                    <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
                         Tentu saja! Kesempatan memenangkan beasiswa Teknik Industri Universitas Surabaya terbuka bagi seluruh siswa kelas 10, 11, maupun 12 SMA/SMK/Sederajat.</p>
