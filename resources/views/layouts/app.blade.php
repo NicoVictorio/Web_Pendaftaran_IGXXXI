@@ -37,7 +37,7 @@
 
         .footer-container {
             color: #fff;
-            background-color: #ea435e;
+            background-color: #2c56a7;
         }
 
         .logo-footer {
@@ -73,19 +73,19 @@
         .nav-link,
         .nav-link:focus {
             font-family: 'TT Norms Bold';
-            color: #ea435e;
+            color: #2c56a7;
             border-radius: 5px;
         }
 
         .nav-link:hover {
             color: #ffff;
-            background-color: #ea435e;
+            background-color: #2c56a7;
             border-radius: 5px;
         }
 
         #navRegister {
             color: #fff;
-            background-color: #ea435e;
+            background-color: #2c56a7;
         }
 
         #navRegister:hover {

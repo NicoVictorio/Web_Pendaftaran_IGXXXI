@@ -7,7 +7,7 @@
 
 
     @font-face {
-        font-family: 'TT Norms Regular';
+        font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
         src: local('TT Norms Regular'), url('assets/font/TTNorms-Regular.woff') format('woff');
@@ -19,14 +19,14 @@
     }
     .whatsig-page{
         background-size:cover;
-        color:#ea435e;
-        font-family:"TT Norms Light";
+        color:#2c56a7;
+        font-family:"Montserrat";
         letter-spacing:0px;
     }
 
     .whatsig-definition{
         padding-bottom:20px;
-        font-family:"TT Norms Light";
+        font-family:"Montserrat";
     }
 
     .maskot{
@@ -36,10 +36,10 @@
 
     .btn-register {
     background: rgba(255,255,255,0);
-    border: 2px solid #EA435E;
+    border: 2px solid #2c56a7;
     transition: all 0.2s ease;
-    color: #EA435E;
-    font-family: 'TT Norms Regular';
+    color: #2c56a7;
+    font-family: 'Montserrat';
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -59,14 +59,14 @@
     }
 
     .horizontal-line {
-        border: 2px solid #EA435E;
+        border: 2px solid #2c56a7;
         opacity: 1;
     }
 
     .prize-text {
-        font-family:"TT Norms Bold";
+        font-family:"Montserrat";
         font-size: 48px;
-        color: #EA435E;
+        color: #2c56a7;
         font-weight: 700;
         letter-spacing: 3px;
     }
@@ -75,17 +75,33 @@
         background-color:#faf0dc;
     }
 
+    /* media query (responsive) */
+
+    /* tablet */
+    @media(max-width:768px){
+        html{
+            font-size:75%;
+        }
+    }
+
+    /* mobile */
+    @media(max-width:450px){
+        html{
+            font-size:62.5%%;
+        }
+    }
+
 </style>
 
 @section('content')
-<body style="background: url('{{ asset('assets') }}/background/Background_Whats_IG.png') top / cover no-repeat">
+<body style="background: url('{{ asset('assets') }}/background/Background_WhatIsIG31.png') top / cover no-repeat">
    <div class="whatsig-page pt-4 px-5">
 
         {{--Whats'IG definition--}}
         <div class="row mt-5 whatsig-definition" >
             {{--Maskot--}}
             <div class="col-3" style="width: fit-content;">
-                <img class="maskot" src="{{ asset('assets') }}/img/Maskot_Lingkaran_WhatsIG.png" alt="">
+                <img class="maskot" src="{{ asset('assets') }}/img/Maskot_Lingkaran_WhatIsIG31.png" alt="">
             </div>
 
             <div class="col-5" style="margin-left:50px;">
@@ -121,7 +137,7 @@
         </div>
 
         {{--Juara--}}
-        <div class="row mt-5 mx-5 px-5 py-5" style="background-color:#faf0dc; ">
+        <div class="row mt-5 mx-5 px-5 py-5" style="background-color:#7dc1e3; ">
             <div class="row justify-content-center" style="text-align:center;">
                 {{--Juara 1--}}
                 <div class="col sm-5" style="item-align:center; padding:30px;">
@@ -130,11 +146,11 @@
                             <img src="{{ asset('assets/img/Juara 1.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat'; font-size:26px; padding:10px;">
                         JUARA 1
                     </div>
                     <div class="row" style="font-size:18px;">
-                        <ul style="list-style-type:none;">
+                        <ul style="list-style-type:none; color:#000;">
                             <li>Tabungan Rp6.000.000</li>
                             <li>Piala Bergilir Gubernur Jawa Timur</li>
                             <li>100% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
@@ -150,11 +166,11 @@
                             <img src="{{ asset('assets/img/Juara 2.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat'; font-size:26px; padding:10px;">
                         JUARA 2
                     </div>
                     <div class="row " style="font-size:18px;">
-                    <ul style="list-style-type:none;">
+                    <ul style="list-style-type:none; color:#000;">
                         <li>Tabungan Rp4.000.000</li>
                         <li>75% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
@@ -169,11 +185,11 @@
                             <img src="{{ asset('assets/img/Juara 3.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat'; font-size:26px; padding:10px;">
                         JUARA 3
                     </div>
                     <div class="row" style="font-size:18px;">
-                    <ul style="list-style-type:none;">
+                    <ul style="list-style-type:none; color:#000;">
                         <li>Tabungan Rp2.500.000</li>
                         <li>50% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
@@ -181,11 +197,20 @@
                     </div>
                 </div>
             </div>
-            
         </div>
+        
+        {{--hiasan--}}
+        <div>
+            <img style="margin-top:-80px; margin-left:80%;" src="{{ asset('assets') }}/img/pelampung_WhatIsIG31.png" alt="">
+        </div>
+
         {{--Sponsor--}}
-        @include('layouts.sponsor')
-        <div class="row spacing-bawah"></div>
+        <div style="margin-top:-100px;">
+            @include('layouts.sponsor')
+        </div>
+        <div class="row spacing-bawah sponsor-section">
+            <div class="sponsor-list"></div>
+        </div>
     </div>
 </body>
 @endsection
