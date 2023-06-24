@@ -37,7 +37,7 @@
 
         .footer-container {
             color: #fff;
-            background-color: #ea435e;
+            background-color: #2c56a7;
         }
 
         .logo-footer {
@@ -124,7 +124,7 @@
                         <a class="nav-link active" aria-current="page" href="{{ route('home') }}">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('whatsig') }}">WHAT'S IG 30?</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('whatsig') }}">WHAT'S IG31?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
@@ -164,15 +164,15 @@
                         <img class="logo-footer mt-3" src="{{ asset('assets') }}/logo/Logo_Ubaya.png"
                             style="max-height: 150px; margin-left:-20px">
                     </div>
-                    {{-- Logo IG --}}
-                    <div class="col-7 d-flex flex-wrap align-items-center">
-                        <img class="logo-footer my-3 me-3" src="{{ asset('assets') }}/logo/Logo_IG.png"
-                            style="max-height: 60px;">
-                    </div>
                     {{-- Logo KSM TI --}}
-                    <div class="col-5 d-flex flex-wrap align-items-center">
+                    <div class="col-3 d-flex flex-wrap align-items-center">
                         <img class="logo-footer my-3 me-3" src="{{ asset('assets') }}/logo/Logo_TI.png"
                             style="max-height: 100px;">
+                    </div>
+                    {{-- Logo IG --}}
+                    <div class="col-7 d-flex flex-wrap align-items-center">
+                        <img class="logo-footer my-3 me-3" src="{{ asset('assets') }}/logo/IG_Logo.png"
+                            style="max-height: 60px;">
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@
                     <div class="col-lg-6 col-sm-8 my-4">
                         <ul class="pages d-flex justify-content-between">
                             <li>
-                                <a href="{{ url('/whatsig') }}">WHAT'S IG30 ?</a>
+                                <a href="{{ url('/whatsig') }}">WHAT'S IG31?</a>
                             </li>
                         </ul>
                     </div>
@@ -221,21 +221,21 @@
 
             {{-- Recent Post --}}
             <div class="col-md-4">
-                {{-- <h4>RECENT POST</h4> --}}
-                {{-- <div class="row mt-3"> --}}
+                <h4>RECENT POST</h4> 
+                <div class="row mt-3"> 
                     {{-- Gambar Maskot --}}
-                    {{-- <div class="col-4 d-flex justify-content-center align-items-center">
-                        <img class="logo-footer my-3 me-3" src="{{ asset('assets') }}/img/Maskot_Footer.png"
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <img class="logo-footer my-3 me-3" src="{{ asset('assets') }}/img/Footer_Maskot.png"
                             style="max-height: 120px;">
-                    </div> --}}
+                    </div> 
                     {{-- Pengumuman --}}
-                    {{-- <div class="col-8 d-flex flex-wrap justify-content-start align-items-center">
+                    <div class="col-8 d-flex flex-wrap justify-content-start align-items-center">
                         <h3>Lorem ipsum dolor sit.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 
-                        <p><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00 PM</span></i></p>
-                    </div> --}}
-                {{-- </div> --}}
+                        <p><i>00 Month 2023 <span style="color:#D3D3D3; font-weight:100">00:00 PM</span></i></p>
+                    </div> 
+                </div> 
 
                 {{-- Social Media --}}
                 <h4 class="">SOCIAL MEDIA</h4>
@@ -283,10 +283,7 @@
                 {{-- Garis Pembatas --}}
                 <div class="col-12 my-2 d-flex justify-content-center">
                     <div style="background-color: #FFFFF7; height:2.5px; width:100%"></div>
-                </div>
-                {{-- Copyright --}}
-                <div class="col-12 mt-4 d-flex justify-content-center">
-                    <h5>Developed by Industrial Games XXX 2022 Committee</h5>
+                    <br>
                 </div>
             </div>
         </footer>

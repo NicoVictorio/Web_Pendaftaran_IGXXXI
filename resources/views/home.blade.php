@@ -209,8 +209,7 @@
             <div style="background-color: #ea435e; height:2.5px; width:50%"></div>
         </div>
 
-        {{-- Poster --}}
-        <div class="col-lg-4 col-sm-12 d-flex flex-wrap justify-content-center">
+        {{--  col-lg-4 col-sm-12 d-flex flex-wrap justify-content-center">
             <img class="fix-image poster" src="{{ asset('assets') }}/img/poster_open_registration.jpg" style="max-height: 700px;">
         </div>
 
