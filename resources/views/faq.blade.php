@@ -3,19 +3,9 @@
 @section("title", "FAQ")
 
 @section('content')
+
     <Style>
-        @font-face {
-            font-family: 'TT Norms Light';
-            font-style: normal;
-            font-weight: normal;
-            src: local('TT Norms Light'), url('assets/font/TTNorms-Light.otf');
-        }
-        @font-face {
-            font-family: 'Amiko Bold';
-            font-style: normal;
-            font-weight: normal;
-            src: local('Amiko Bold'), url('assets/font/Amiko-Bold.woff') format('woff');
-        }
+        
         .row{
             margin-right:0;
             margin-left:0;
@@ -107,7 +97,7 @@
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Hari H Industrial Games akan diadakan pada 20-21 Agustus 2022, dan 27-28 Agustus 2022.</p>
+                        Hari H Industrial Games akan diadakan pada ... - ... Agustus 2023, dan ... - ... Agustus 2023.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
@@ -117,7 +107,7 @@
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada atau dapat mendaftar langsung tanggal 10 Juni 2021 di East Atrium Grand City Surabaya dan dapatkan voucher menarik.</p>
+                        Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada atau dapat mendaftar langsung tanggal ... di ... dan dapatkan voucher menarik.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
@@ -127,7 +117,7 @@
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Pendaftaran Early Bird (23 Mei-30 Juni 2022) dikenakan biaya Rp60.000 dan pendaftaran Normal (1 Juli - 31 Juli) dikenakan biaya Rp75.000 </p>
+                        Pendaftaran Early Bird (...) dikenakan biaya Rp ... dan pendaftaran Normal (...) dikenakan biaya Rp ... </p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
@@ -175,6 +165,14 @@
                 </div>
             </div>
             <!----End FAQ Body---->
+            <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
+                @include('layouts.sponsor')
+            </div>
+
+            <div class="row spacing-bawah sponsor-section">
+                <div class="sponsor-list"></div>
+            </div>
+            
         </div>
     </div>
 </body>
