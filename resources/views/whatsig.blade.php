@@ -7,10 +7,11 @@
 
 
     @font-face {
-        font-family: 'TT Norms Regular';
+        font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
-        src: local('TT Norms Regular'), url('assets/font/TTNorms-Regular.woff') format('woff');
+        /*src: local('Montserrat'), url('assets/font/TTNorms-Regular.woff') format('woff');*/
+        src: local('Montserrat'), url('assets/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     }
     form {
         display: block;
@@ -19,14 +20,14 @@
     }
     .whatsig-page{
         background-size:cover;
-        color:#ea435e;
-        font-family:"TT Norms Light";
+        color:#2c56a7;
+        font-family:"Montserrat";
         letter-spacing:0px;
     }
 
     .whatsig-definition{
         padding-bottom:20px;
-        font-family:"TT Norms Light";
+        font-family:"Montserrat";
     }
 
     .maskot{
@@ -36,10 +37,10 @@
 
     .btn-register {
     background: rgba(255,255,255,0);
-    border: 2px solid #EA435E;
+    border: 2px solid #2c56a7;
     transition: all 0.2s ease;
-    color: #EA435E;
-    font-family: 'TT Norms Regular';
+    color: #2c56a7;
+    font-family: 'Montserrat';
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -59,14 +60,14 @@
     }
 
     .horizontal-line {
-        border: 2px solid #EA435E;
+        border: 2px solid #2c56a7;
         opacity: 1;
     }
 
     .prize-text {
-        font-family:"TT Norms Bold";
-        font-size: 48px;
-        color: #EA435E;
+        font-family:"Montserrat";
+        font-size: 2rem;
+        color: #2c56a7;
         font-weight: 700;
         letter-spacing: 3px;
     }
@@ -75,31 +76,75 @@
         background-color:#faf0dc;
     }
 
+    .hiasan{
+        margin-top:-10%; 
+        margin-left:80%; 
+        width:20%;
+    }
+
+    .juara-container{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .juara-items{
+        flex-grow:1;
+        flex-basis:1020px;
+    }
+
+    /* media query (responsive) */
+
+    /* tablet */
+    @media(max-width:717px){
+        html{
+            font-size:75%;
+        }
+
+        .hiasan{
+            margin-top:-10%; 
+            margin-left:75%; 
+            width:30%;
+        }
+    }
+
+    /* mobile */
+    @media(max-width:450px){
+        html{
+            font-size:62.5%;
+        }
+        
+        .hiasan{
+            margin-top:-10%; 
+            margin-left:75%; 
+            width:35%;
+        }
+    }
+
 </style>
 
 @section('content')
-<body style="background: url('{{ asset('assets') }}/background/Background_Whats_IG.png') top / cover no-repeat">
+<body style="background: url('{{ asset('assets') }}/background/Background_WhatIsIG31.png') top / cover no-repeat">
    <div class="whatsig-page pt-4 px-5">
 
         {{--Whats'IG definition--}}
         <div class="row mt-5 whatsig-definition" >
             {{--Maskot--}}
             <div class="col-3" style="width: fit-content;">
-                <img class="maskot" src="{{ asset('assets') }}/img/Maskot_Lingkaran_WhatsIG.png" alt="">
+                <img class="maskot" src="{{ asset('assets') }}/img/Maskot_Lingkaran_WhatIsIG31.png" alt="">
             </div>
 
             <div class="col-5" style="margin-left:50px;">
                 {{--What's IG Title--}}
                 <div class="row md-5">
-                    <div clsss="col" style="width:fit-content; padding:3px; font-size:48px;">What is </div>
-                    <div clsss="col" style="width:fit-content; padding:3px; font-family:TT Norms Bold; font-size:48px;">IG30 </div>
-                    <div clsss="col" style="width:fit-content; padding:3px; font-size:48px;">?</div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-size:42px;">What is </div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat; font-weight:Bolder; font-size:42px;">INDUSTRIAL GAMES </div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-size:42px;">?</div>
                 </div>
 
                 {{--What's IG text--}}
                 <div class="row">
                     <p style="padding:0px;">
-                        Industrial Games adalah kompetisi dalam bidang Teknik Industri yang diadakan Program Studi Teknik Industri Universitas Surabaya untuk siswa-i SMA/SMK/Sederajat di seluruh Indonesia. Industrial Games dikemas dalam bentuk games di mana peserta dapat bermain sambil belajar dalam merancang, mengatur, dan mengaplikasikan sistem industri yang memuat manusia, mesin, material, lingkungan, dan manajemen. Sebagai lomba terbesar dan tertua yang sudah berjalan selama 29 tahun di Indonesia, Industrial Games mengenalkan industri manufaktur, industri jasa, dan industri digital yang sekarang sudah diterapkan di seluruh dunia. Tidak hanya itu, Industrial Games memberikan kesempatan kepada peserta dalam menambah pengalaman, relasi, dan pengetahuan lebih dalam terkait Teknik Industri.
+                        Industrial Games adalah kompetisi dalam bidang Teknik Industri yang diadakan Program Studi Teknik Industri Universitas Surabaya untuk siswa-i SMA/SMK/Sederajat di seluruh Indonesia. Industrial Games dikemas dalam bentuk games di mana peserta dapat bermain sambil belajar dalam merancang, mengatur, dan mengaplikasikan sistem industri yang memuat manusia, mesin, material, lingkungan, dan manajemen. Sebagai lomba terbesar dan tertua yang sudah berjalan selama 30 tahun di Indonesia, Industrial Games mengenalkan industri manufaktur, industri jasa, dan industri digital yang sekarang sudah diterapkan di seluruh dunia. Tidak hanya itu, Industrial Games memberikan kesempatan kepada peserta dalam menambah pengalaman, relasi, dan pengetahuan lebih dalam terkait Teknik Industri.
                     </p>
                 </div>
                 
@@ -121,20 +166,20 @@
         </div>
 
         {{--Juara--}}
-        <div class="row mt-5 mx-5 px-5 py-5" style="background-color:#faf0dc; ">
+        <div class="juara-container row mt-5 mx-3 px-3 py-5" style="background-color:#7dc1e3; ">
             <div class="row justify-content-center" style="text-align:center;">
                 {{--Juara 1--}}
-                <div class="col sm-5" style="item-align:center; padding:30px;">
+                <div class="col sm-5 juara-items" style="item-align:center; padding:30px;">
                     <div class="row d-flex flex-wrap justify-content-center">
                         <div style="background-color:#ffffff;border-radius:50%;width:200px;height:200px;margin-bottom:20px;padding-top:25px;">
                             <img src="{{ asset('assets/img/Juara 1.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 1
                     </div>
                     <div class="row" style="font-size:18px;">
-                        <ul style="list-style-type:none;">
+                        <ul style="list-style-type:none; color:#000;">
                             <li>Tabungan Rp6.000.000</li>
                             <li>Piala Bergilir Gubernur Jawa Timur</li>
                             <li>100% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
@@ -144,17 +189,17 @@
                 </div>
 
                 {{--Juara 2--}}
-                <div class="col sm-5 order-first" style="item-align:center;padding:30px;">
+                <div class="col sm-5 order-first juara-items" style="item-align:center;padding:30px;">
                     <div class="row d-flex flex-wrap justify-content-center" >
                         <div style="background-color:#ffffff;border-radius:50%;width:200px;height:200px;margin-bottom:20px;padding-top:25px;">
                             <img src="{{ asset('assets/img/Juara 2.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 2
                     </div>
                     <div class="row " style="font-size:18px;">
-                    <ul style="list-style-type:none;">
+                    <ul style="list-style-type:none; color:#000;">
                         <li>Tabungan Rp4.000.000</li>
                         <li>75% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
@@ -163,17 +208,17 @@
                 </div>
 
                 {{--Juara 3--}}
-                <div class="col sm-5 order-last" style="item-align:center;padding:30px;">
+                <div class="col sm-5 order-last juara-items" style="item-align:center;padding:30px;">
                     <div class="row d-flex flex-wrap justify-content-center">
                         <div style="background-color:#ffffff;border-radius:50%;width:200px;height:200px;margin-bottom:20px;padding-top:25px;">
                             <img src="{{ asset('assets/img/Juara 3.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'TT Norms Bold'; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 3
                     </div>
                     <div class="row" style="font-size:18px;">
-                    <ul style="list-style-type:none;">
+                    <ul style="list-style-type:none; color:#000;">
                         <li>Tabungan Rp2.500.000</li>
                         <li>50% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
@@ -181,11 +226,20 @@
                     </div>
                 </div>
             </div>
-            
         </div>
+        
+        {{--hiasan--}}
+        <div>
+            <img class="hiasan" src="{{ asset('assets') }}/img/pelampung_WhatIsIG31.png" alt="">
+        </div>
+
         {{--Sponsor--}}
-        @include('layouts.sponsor')
-        <div class="row spacing-bawah"></div>
+        <div style="margin-top:-6rem;">
+            @include('layouts.sponsor')
+        </div>
+        <div class="row spacing-bawah sponsor-section">
+            <div class="sponsor-list"></div>
+        </div>
     </div>
 </body>
 @endsection
