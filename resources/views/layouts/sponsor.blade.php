@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             .sponsor-section {
-                opacity: 0.6
+                opacity: 0.9
             }
 
             .sponsor-list div.sponsor {
@@ -17,11 +17,11 @@
     </head>
 
     <body>
-        <div class="sponsor-section mt-5 mx-2 mx-md-5 px-0 px-md-5 bg-light">
-            <div class="text-center py-md-5"><h2 class="fw-bold" style="color: #2c56a7">Sponsored by: </h2></div>
+        <!-- <div class="sponsor-section mt-5 mx-2 mx-md-5 px-0 px-md-5 bg-light">
+            <div class="text-center py-md-5"><h2 class="fw-bold" style="color: #EA435E">Sponsored by: </h2></div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 sponsor-list">
                 @for($i=1; $i <=8; $i++)
-                <div class="col py-3 px-0 px-md-5">
+                <div class="col pb-5 px-0 px-md-5">
                     <div class="sponsor"></div>
                 </div>
                 @endfor
