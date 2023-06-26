@@ -29,7 +29,7 @@
                     <p class="mb-0 fs-1">Join the <span class="fw-bold">GAMES</span></p>
                     <p class="fs-1">now !</p>
 
-                    <a href="http://bit.ly/IG_Ubaya" target="_blank" class="btn btn-register rounded-pill px-4 py-2 mb-3">
+                    <a href="https://bit.ly/PendaftaranIGXXXI2023" target="_blank" class="btn btn-register rounded-pill px-4 py-2 mb-3">
                         REGISTER NOW
                     </a>
                 </div>
