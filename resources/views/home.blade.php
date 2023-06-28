@@ -5,11 +5,13 @@
 @section('css')
 <style>
     body {
-        background: url("/assets/background/background_home.png") no-repeat center center;
+        background: url("/assets/background/background_home.png") no-repeat;  
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        margin: 0px;
+        width: 100%;
     }
 
     h2 {
@@ -40,6 +42,18 @@
         color: #ea435e;
     }
 
+    .text-blue {
+        color: #2C56A7;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .text-thin {
+        color: #2C56A7;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
     .spacer {
         height: 100px;
         width: auto;
@@ -63,10 +77,11 @@
 
 
     .button-regis {
-        border: 1px solid #ea435e;
+        background: transparent;
+        border: 1px solid #2C56A7;
         border-radius: 1.5rem;
         box-sizing: border-box;
-        color: #ea435e;
+        color: #2C56A7;
         cursor: pointer;
         display: inline-block;
         font-size: 1.1rem;
@@ -84,7 +99,7 @@
     }
 
     .button-regis:hover {
-        background-color: #ea435e;
+        background-color: #2C56A7;
         color: #fff;
     }
 
@@ -93,6 +108,18 @@
         margin-left: -30px;
     }
 
+    .juara-items{
+        flex-grow:1;
+        flex-basis:1020px;
+    }
+
+    .bg-text{
+        border-radius: 20px;
+        max-width: 500px;
+        transition: all 0.2s ease;
+        background: #c3e2f6; 
+    }
+    
     @media (min-width: 768px) {
         .button-regis {
             font-size: 1.125rem;
@@ -135,7 +162,7 @@
         }
 
         .poster {
-            max-height: 400px !important;
+            max-height: 230px !important;
         }
 
         .timeline {
@@ -153,19 +180,25 @@
         .headline {
             max-height: 200px !important;
         }
+
+        .hiasan{
+            margin-top:-10%; 
+            margin-left:75%; 
+            width:30%;
+        }
     }
 </style>
 @endsection
 
 @section('content')
-<div class="container">
-    <div class="spacer"></div>
+<div class="container ">
+    <div class="row-full">
     <div class="spacer"></div>
     {{-- Logo IG --}}
     <div class="row my-5">
-        <div class="col-12 d-flex flex-wrap justify-content-end">
+        <div class="col-12 mt-3 d-flex flex-wrap justify-content-center">
             <img class="fix-image headline" src="{{ asset('assets') }}/logo/Logo Besar_Home.png"
-                style="max-height: 400px;">
+                style="max-height: 600px;">
         </div>
     </div>
     {{-- End Of Logo IG --}}
@@ -175,23 +208,21 @@
     <div class="spacer"></div>
 
     {{-- Prize dan Maskot --}}
-    <div class="container-1 row my-5 mx-5 px-5">
-        <div class="col-lg-6 col-sm-12  my-4 d-flex flex-wrap justify-content-start">
-            <img class="fix-image prize" src="{{ asset('assets') }}/img/Font_Home.png" style="max-height: 800px;">
+    <div class="row my-10 mx-0" >
+        <div class="col-xl-8 col-sm-12  my-4 d-flex flex-wrap justify-content-start">
+            <img class="fix-image prize" src="{{ asset('assets') }}/img/Font_Home.png" style="max-height: 1000px;">
         </div>
-        <div class="col-lg-6 col-sm-12 d-flex flex-wrap justify-content-center">
-            <img class="fix-image maskot" src="{{ asset('assets') }}/img/Maskot_Home.png" style="max-height: 450px;">
+        <div class="col-xl-4 col-sm-12 d-flex flex-wrap justify-content-center">
+            <img class="fix-image maskot" src="{{ asset('assets') }}/img/Maskot_Home.png" style="max-height: 600px;">
         </div>
     </div>
     {{-- End Of Prize dan Maskot --}}
 
-    <div class="spacer-1"></div>
-
     {{-- Timeline --}}
-    <div class="row">
+    <div class="row mt-3">
         <div class="col-12 d-flex flex-wrap justify-content-end align-items-center mb-3 mt-5">
-            <div style="background-color: #ea435e; height:2.5px; width:50%"></div>
-            <h2 class="ms-5 text-red">TIMELINE</h2>
+            <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
+            <h2 class="ms-5 text-blue">TIMELINE</h2>
         </div>
         <div class="col-12 d-flex flex-wrap justify-content-center">
             <img class="fix-image timeline" src="{{ asset('assets') }}/img/Timeline_Home.png"
@@ -200,63 +231,57 @@
     </div>
     {{-- End Of Timeline --}}
 
-    <div class="spacer-1"></div>
-
     {{-- Info --}}
     <div class="row">
         <div class="col-12 d-flex flex-wrap justify-content-start align-items-center mb-3 mt-5">
-            <h2 class="me-5 text-red">INFO</h2>
-            <div style="background-color: #ea435e; height:2.5px; width:50%"></div>
+            <h2 class="me-5 text-blue">INFO</h2>
+            <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
         </div>
-
-        {{--  col-lg-4 col-sm-12 d-flex flex-wrap justify-content-center">
-            <img class="fix-image poster" src="{{ asset('assets') }}/img/poster_open_registration.jpg" style="max-height: 700px;">
+        <div class="col-10 col-lg-4">
+            <div><img class="fix-image poster" src="{{ asset('assets') }}/img/poster_open_registration.png" style="max-height: 700px;"></div>
         </div>
-
-        <div class="col-lg-1 col-sm-12 spacer-2">
-
-            {{-- Info Details --}}
-        </div>
-        <div class="col-lg-7 col-sm-12">
-            <h2 class="text-red">PENDAFTARAN EARLY BIRD <br> SUDAH DIBUKA !</h2>
+        <div class="col-12 col-lg-6">
+            <h2 class="text-blue">PENDAFTARAN BATCH 1<br>SUDAH DIBUKA !</h2>
             {{-- Button --}}
-            <button class="button-regis my-4" role="button" onclick="location.href='{{ route('register') }}'">REGISTER NOW</button>
-
-            {{-- See More Info --}}
-            {{-- <h4 class="text-red mt-4">See More Info</h4> --}}
+            <button class="button-regis my-2" role="button" onclick="location.href='{{ route('register') }}'">REGISTER NOW</button>
             <div class="row">
-                {{-- Info 1 --}}
-                {{-- <div class="col-lg-6 col-sm-12">
-                    <div class="container-info p-4 mt-3">
-                        <h3 class="text-red">Lorem ipsum dolor sit.</h3>
-                        <p class="text-red"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
-                                    PM</span></i></p>
-
-                        <p class="text-red mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                            sit amet consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio
-                            quibusdam fugit odio harum eveniet excepturi.</p>
+                <h3 class="text-thin mt-4">See More Info</h3>
+                <div class="col-md-6">
+                    <div class="bg-text">
+                        <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
+                            <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
+                                        PM</span></i></p>
+                            <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio
+                                quibusdam fugit odio harum eveniet excepturi.</p>
                     </div>
-                </div> --}}
-                {{-- End Of Info 1 --}}
-                {{-- Info 2 --}}
-                {{-- <div class="col-lg-6 col-sm-12">
-                    <div class="container-info p-4 mt-3">
-                        <h3 class="text-red">Lorem ipsum dolor sit.</h3>
-                        <p class="text-red"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
-                                    PM</span></i></p>
-
-                        <p class="text-red mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                            sit amet
-                            consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio quibusdam
-                            fugit odio harum
-                            eveniet excepturi.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-text">
+                        <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
+                            <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
+                                        PM</span></i></p>
+                            <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio
+                                quibusdam fugit odio harum eveniet excepturi.</p>
                     </div>
-                </div> --}}
-                {{-- End Of Info 2 --}}
+                </div>
             </div>
         </div>
     </div>
-    {{-- End Of Info --}}
+
+    <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
+        @include('layouts.sponsor')
+    </div>
+    <div class="row spacing-bawah sponsor-section">
+        <div class="sponsor-list"></div>
+    </div>
 </div>
+
 <div style="height: 500px; width: auto"></div>
+{{--hiasan--}}
+<div>
+    <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
+</div>
+
 @endsection
