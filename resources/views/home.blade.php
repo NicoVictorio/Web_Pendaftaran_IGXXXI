@@ -218,17 +218,44 @@
     </div>
     {{-- End Of Prize dan Maskot --}}
 
-    {{-- Timeline --}}
-    <div class="row mt-3">
-        <div class="col-12 d-flex flex-wrap justify-content-end align-items-center mb-3 mt-5">
-            <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
-            <h2 class="ms-5 text-blue">TIMELINE</h2>
-        </div>
-        <div class="col-12 d-flex flex-wrap justify-content-center">
-            <img class="fix-image timeline" src="{{ asset('assets') }}/img/Timeline_Home.png"
-                style="max-height: 700px;">
+    {{-- Timeline --}}<div class="col mt-3">
+    <div class="col-12 d-flex flex-wrap justify-content-end align-items-center mb-3 mt-5">
+        <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
+        <h2 class="ms-5 text-blue">TIMELINE</h2>
+    </div>
+    <div class="row-12 d-flex flex-wrap align-items-center justify-content-center">
+        <div class="row align-items-center">
+            <div class="col"> <!-- left side -->
+                <div class="col text-end" style="margin-bottom: 120px;">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px;">
+                    <p class="text-blue">00 Month 2023</p>
+                </div>
+                <div class="col text-end">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/campustour.png" style="max-height: 60px;">
+                    <p class="text-blue">00 Month 2023</p>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center"> <!-- center side -->
+                <img class="fix-image timeline" src="{{ asset('assets') }}/img/tali.png" style="max-height: 700px;">
+            </div>
+            <div class="col text-start"> <!-- right side -->
+                <div class="col text-start" style="margin-bottom: 70px;">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/openregis.png" style="max-height: 90px;">
+                    <p class="text-blue">00 Month - 00 Month 2023</p>
+                </div>
+                <div class="col text-start" style="margin-bottom: 70px;">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/semifinal.png" style="max-height: 60px;">
+                    <p class="text-blue">00 Month 2023</p>
+                </div>
+                <div class="col text-start">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px;">
+                    <p class="text-blue">00 Month 2023</p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
     {{-- End Of Timeline --}}
 
     {{-- Info --}}
