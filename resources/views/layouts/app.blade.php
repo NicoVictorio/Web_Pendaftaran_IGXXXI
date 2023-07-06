@@ -230,10 +230,10 @@
                     </div> 
                     {{-- Pengumuman --}}
                     <div class="col-8 d-flex flex-wrap justify-content-start align-items-center">
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        <h3>Industrial Games</h3>
+                        <p>Industrial Games is a competition held by Industrial Engineering of University of Surabaya.</p>
 
-                        <p><i>00 Month 2023 <span style="color:#D3D3D3; font-weight:100">00:00 PM</span></i></p>
+                        <p><i>01 July 2023 <span style="color:#D3D3D3; font-weight:100">23:59 PM</span></i></p>
                     </div> 
                 </div> 
 
