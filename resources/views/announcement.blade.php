@@ -5,26 +5,25 @@
 @section('content')
     <Style>
         @font-face {
-            font-family: 'TT Norms Bold';
+            font-family: 'Montserrat Light';
             font-style: normal;
-            font-weight: normal;
-            src: local('TT Norms Bold'), url('assets/font/TTNorms-Bold.woff') format('woff');
+            font-weight: bold;
+            src: local('Montserrat'), url('assets/font/Montserrat-Light.ttf');
         }
 
         @font-face {
-            font-family: 'TT Norms Light';
+            font-family: 'Montserrat Medium';
             font-style: normal;
             font-weight: normal;
-            src: local('TT Norms Light'), url('assets/font/TTNorms-Light.otf');
+            src: local('Montserrat'), url('assets/font/Montserrat-Medium.ttf');
         }
 
         @font-face {
-            font-family: 'Amiko Bold';
+            font-family: 'Montserrat Bold';
             font-style: normal;
             font-weight: normal;
-            src: local('Amiko Bold'), url('assets/font/Amiko-Bold.woff') format('woff');
+            src: local('Montserrat'), url('assets/font/Montserrat-Bold.ttf');
         }
-
         .row {
             margin-right: 0;
             margin-left: 0;
@@ -48,7 +47,7 @@
         }
 
         .card {
-            font-family: "TT Norms Light", sans-serif;
+            font-family: "Monteserrat", sans-serif;
             color: #2C56A7;
             letter-spacing: 0px;
             text-align: justify;
@@ -69,7 +68,7 @@
         }
 
         .card-text {
-            font-weight: 100;
+            font-family: "Monteserrat Light", sans-serif;
         }
 
         .lighthouse {
@@ -92,7 +91,7 @@
             {{-- Announcement Title --}}
             <div class="row">
                 <div class="col" style="max-width:500px;">
-                    <h1 style="margin: 1rem; font-family:TT Norms Bold, sans-serif; color:#2C56A7;">ANNOUNCEMENTS</h1>
+                    <h1 style="margin: 1rem; font-family: Montserrat Bold, sans-serif; color:#2C56A7;">ANNOUNCEMENTS</h1>
                 </div>
                 <div class="col md-auto">
                     <hr class="horizontal-lines"
@@ -110,7 +109,7 @@
 
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
-                            <h4 class="card-title" style="font-family: Amiko Bold, sans-serif;">Pengumuman Terkait</h4>
+                            <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
                             <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
@@ -126,7 +125,7 @@
 
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
-                            <h4 class="card-title" style="font-family: Amiko Bold, sans-serif;">Pengumuman Terkait</h4>
+                            <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
                             <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
@@ -142,7 +141,7 @@
 
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
-                            <h4 class="card-title" style="font-family: Amiko Bold, sans-serif;">Pengumuman Terkait</h4>
+                            <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
                             <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
