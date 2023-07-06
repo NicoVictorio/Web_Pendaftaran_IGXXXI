@@ -132,6 +132,6 @@
         </div>
 
         {{-- Sponsor --}}
-        @include('layouts.sponsor')
+        {{-- @include('layouts.sponsor') --}}
     </div>
 @endsection
