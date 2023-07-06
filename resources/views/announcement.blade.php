@@ -91,7 +91,7 @@
             {{-- Announcement Title --}}
             <div class="row">
                 <div class="col" style="max-width:500px;">
-                    <h1 style="margin: 1rem; font-family: Montserrat, sans-serif; color:#2C56A7;">ANNOUNCEMENTS</h1>
+                    <h1 style="margin: 1rem; font-family: Montserrat Bold, sans-serif; color:#2C56A7;">ANNOUNCEMENTS</h1>
                 </div>
                 <div class="col md-auto">
                     <hr class="horizontal-lines"
