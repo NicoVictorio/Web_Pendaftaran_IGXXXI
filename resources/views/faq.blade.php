@@ -71,53 +71,33 @@
             
             <!----FAQ body---->
                 <div class="card" style="border-style: none;background: rgba(255,255,255,0);padding-bottom:1rem;padding-top:1rem;">
-
+                
                 <!----FAQ Card---->
-                    <h4 class="card-title">Industrial Games XXXI diadakan secara online atau offline?</h4>
+                <h4 class="card-title">Apa itu Industrial Games?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Industrial Games XXXI diadakan secara offline dimulai dari babak game besar, semi final, dan babak final yang berlokasi di Universitas Surabaya.</p>
+                        Kompetisi tahunan berskala nasional yang diadakan oleh Program Studi Teknik Industri Universitas Surabaya untuk siswa SMA/SMK/sederajat di seluruh Indonesia.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                    <h4 class="card-title">Satu tim terdiri dari berapa orang? Apa boleh berbeda sekolah?</h4>
+                    <h4 class="card-title">Industrial Games XXXI diadakan secara apa?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Satu tim terdiri dari 3 orang dari sekolah yang sama. Tim boleh terdiri dari angkatan yang berbeda.</p>
+                        Untuk pertama kalinya sejak pandemi, Industrial Games tahun ini akan diadakan secara FULL OFFLINE!</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Industrial Games XXXI diadakan kapan?</h4>
+                <h4 class="card-title">Perlombaan Industrial Games terdiri dari babak apa saja?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Hari H Industrial Games akan diadakan pada 9 - 10 September 2023.</p>
-                        <!----End FAQ Text----> 
-                    </div>
-                <!----End FAQ Card---->
-
-                <!----FAQ Card---->
-                <h4 class="card-title">Bagaimana cara mendaftar Industrial Games XXXI?</h4>
-                    <div class="card-body">
-                        <!----FAQ Text---->
-                        <p class="card-text">
-                        Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada.</p>
-                        <!----End FAQ Text----> 
-                    </div>
-                <!----End FAQ Card---->
-
-                <!----FAQ Card---->
-                <h4 class="card-title">Berapa biaya pendaftaran Industrial Games XXXI?</h4>
-                    <div class="card-body">
-                        <!----FAQ Text---->
-                        <p class="card-text">
-                        Pendaftaran Early Bird (1 - 25 Juli 2023) dikenakan biaya Rp 60.000 dan pendaftaran Normal (26 Juli - 28 Agustus 2023) dikenakan biaya Rp 75.000 </p>
+                        Industrial Games terdiri dari babak game besar, semi final, dan final.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
@@ -127,41 +107,32 @@
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Materi yang akan digunakan adalah pengetahuan umum, pengetahuan umum Teknik Industri, dan IPA SMA.</p>
+                        Materi yang digunakan adalah pengetahuan umum, IPA SMA, dan seputar teknik industri.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Ada berapa babak di Industrial Games XXXI?</h4>
+                <h4 class="card-title">Bagaimana bentuk perlombaan Industrial Games?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Peserta akan bermain dalam 3 babak utama, yaitu Game Besar, Semifinal, dan Final.</p>
+                        Perlombaan Industrial games merupakan simulasi dunia industri yang dikemas dalam bentuk games, seperti bagaimana proses distribusi dan produksi. Games pada setiap babaknya akan menguji kemampuan strategi, problem solving, dan kreativitas peserta.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Bagaimana bentuk lomba IG XXXI? Apakah essay, cerdas cermat, atau desain?</h4>
+                    <h4 class="card-title">Berapa jumlah anggota dalam satu (1) tim? Apakah boleh dari sekolah yang berbeda?
+</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Sesuai namanya, Industrial Games adalah kompetisi yang dikemas dalam bentuk games yang didasarkan pada industri seperti simulasi industri, proses distribusi, dan lain-lainnya yang menguji kreativitas dan kemampuan strategi peserta dengan pengerjaan soal sebagai salah satu komponen dalam games.</p>
+                        Satu (1) tim terdiri atas tiga (3) orang yang berasal dari sekolah yang sama. Tim boleh terdiri dari angkatan yang berbeda.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
-                <!----FAQ Card---->
-                <h4 class="card-title">Apakah peserta kelas 12 boleh ikut?</h4>
-                    <div class="card-body">
-                        <!----FAQ Text---->
-                        <p class="card-text">
-                        Tentu saja! Kesempatan memenangkan beasiswa Teknik Industri Universitas Surabaya terbuka bagi seluruh siswa kelas 10, 11, maupun 12 SMA/SMK/Sederajat.</p>
-                        <!----End FAQ Text----> 
-                    </div>
-                <!----End FAQ Card---->
-                
                 </div>
             </div>
             <!----End FAQ Body---->
