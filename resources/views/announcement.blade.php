@@ -110,14 +110,16 @@
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
                             <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
-                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
+                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;"> <!-- 00 Month 2022 / 00.00 PM --></h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
+                                <!--
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                -->
                             </p>
                         </div>
                         <!----End Annoucement Text---->
@@ -126,14 +128,16 @@
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
                             <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
-                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
+                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;"><!-- 00 Month 2022 / 00.00 PM --></h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
+                                <!--
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                -->
                             </p>
                         </div>
                         <!----End Annoucement Text---->
@@ -142,14 +146,16 @@
                         <!----Announcement Card 1---->
                         <div class="card-body" style="background-color: #C3E2F6;margin: 1rem;padding:1.5rem;">
                             <h4 class="card-title" style="font-family: Montserrat Bold, sans-serif;">Pengumuman Terkait</h4>
-                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;">00 Month 2022 / 00.00 PM</h6>
+                            <h6 class="card-subtitle mb-2" style="padding-bottom:10px;"><!-- 00 Month 2022 / 00.00 PM --></h6>
                             <!----Annoucement Text---->
                             <p class="card-text">
+                                <!--
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                -->
                             </p>
                         </div>
                         <!----End Annoucement Text---->
