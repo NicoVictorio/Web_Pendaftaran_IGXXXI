@@ -73,11 +73,11 @@
                 <div class="card" style="border-style: none;background: rgba(255,255,255,0);padding-bottom:1rem;padding-top:1rem;">
 
                 <!----FAQ Card---->
-                    <h4 class="card-title">Industrial Games XXX diadakan secara online atau offline?</h4>
+                    <h4 class="card-title">Industrial Games XXXI diadakan secara online atau offline?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Industrial Games XXX diadakan secara hybrid, dimana babak game besar dan semi final diadakan secara online dan babak final diadakan secara offline di Universitas Surabaya.</p>
+                        Industrial Games XXXI diadakan secara offline dimulai dari babak game besar, semi final, dan babak final yang berlokasi di Universitas Surabaya.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
@@ -93,37 +93,37 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Industrial Games XXX diadakan kapan?</h4>
+                <h4 class="card-title">Industrial Games XXXI diadakan kapan?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Hari H Industrial Games akan diadakan pada ... - ... Agustus 2023, dan ... - ... Agustus 2023.</p>
+                        Hari H Industrial Games akan diadakan pada 9 - 10 September 2023.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Bagaimana cara mendaftar Industrial Games XXX?</h4>
+                <h4 class="card-title">Bagaimana cara mendaftar Industrial Games XXXI?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada atau dapat mendaftar langsung tanggal ... di ... dan dapatkan voucher menarik.</p>
+                        Peserta dapat mengisi Google Form yang tersedia dan mengikuti langkah-langkah yang ada.</p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Berapa biaya pendaftaran Industrial Games XXX?</h4>
+                <h4 class="card-title">Berapa biaya pendaftaran Industrial Games XXXI?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
-                        Pendaftaran Early Bird (...) dikenakan biaya Rp ... dan pendaftaran Normal (...) dikenakan biaya Rp ... </p>
+                        Pendaftaran Early Bird (1 - 25 Juli 2023) dikenakan biaya Rp 60.000 dan pendaftaran Normal (26 Juli - 28 Agustus 2023) dikenakan biaya Rp 75.000 </p>
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Materi apa saja yang akan digunakan selama perlombaan Industrial Games XXX?</h4>
+                <h4 class="card-title">Materi apa saja yang akan digunakan selama perlombaan Industrial Games XXXI?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
@@ -133,7 +133,7 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Ada berapa babak di Industrial Games XXX?</h4>
+                <h4 class="card-title">Ada berapa babak di Industrial Games XXXI?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
@@ -143,7 +143,7 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                <h4 class="card-title">Bagaimana bentuk lomba IG XXX? Apakah essay, cerdas cermat, atau desain?</h4>
+                <h4 class="card-title">Bagaimana bentuk lomba IG XXXI? Apakah essay, cerdas cermat, atau desain?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
