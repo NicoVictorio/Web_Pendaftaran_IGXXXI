@@ -123,8 +123,7 @@
                 <!----End FAQ Card---->
 
                 <!----FAQ Card---->
-                    <h4 class="card-title">Berapa jumlah anggota dalam satu (1) tim? Apakah boleh dari sekolah yang berbeda?
-</h4>
+                    <h4 class="card-title">Berapa jumlah anggota dalam satu (1) tim? Apakah boleh dari sekolah yang berbeda?</h4>
                     <div class="card-body">
                         <!----FAQ Text---->
                         <p class="card-text">
@@ -132,13 +131,14 @@
                         <!----End FAQ Text----> 
                     </div>
                 <!----End FAQ Card---->
-
                 </div>
             </div>
             <!----End FAQ Body---->
-            <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
+
+            {{-- Sponsor --}}
+            {{-- <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
                 @include('layouts.sponsor')
-            </div>
+            </div> --}}
 
             <div class="row spacing-bawah sponsor-section">
                 <div class="sponsor-list"></div>

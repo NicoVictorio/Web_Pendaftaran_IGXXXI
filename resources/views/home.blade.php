@@ -265,7 +265,7 @@
             <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
         </div>
         <div class="col-10 col-lg-4">
-            <div><img class="fix-image poster" src="{{ asset('assets') }}/img/poster_open_registration.png" style="max-height: 700px;"></div>
+            <div><img class="fix-image poster" src="{{ asset('assets') }}/img/Poster.png" style="max-height: 700px;"></div>
         </div>
         <div class="col-12 col-lg-6">
             <h2 class="text-blue">PENDAFTARAN BATCH 1<br>SUDAH DIBUKA !</h2>
@@ -297,15 +297,15 @@
         </div>
     </div>
 
-    <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
+    {{-- <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
         @include('layouts.sponsor')
-    </div>
-    <div class="row spacing-bawah sponsor-section">
+    </div> --}}
+    {{-- <div class="row spacing-bawah sponsor-section">
         <div class="sponsor-list"></div>
-    </div>
+    </div> --}}
 </div>
 
-<div style="height: 500px; width: auto"></div>
+{{-- <div style="height: 500px; width: auto"></div> --}}
 {{--hiasan--}}
 <div>
     <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">

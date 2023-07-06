@@ -106,11 +106,11 @@
     </div>
 
     {{-- Sponsor --}}
-    <div class="row mx-4">
+    {{-- <div class="row mx-4">
         <div class="col">
             @include('layouts.sponsor')
         </div>
-    </div>
+    </div> --}}
 
     {{-- Alternatif klo misal nanti ternyata perlu mbalikno sponsor ke kode awal masukin di bawahnya line 109 --}}
     {{-- <div class="row spacing-bawah"></div> --}}

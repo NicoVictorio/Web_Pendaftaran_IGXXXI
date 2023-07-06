@@ -165,9 +165,9 @@
                 </div>
             </div>
 
-            {{-- Sponsor --}}
+            {{-- Sponsor
             @include('layouts.sponsor')
-            <div class="row spacing-bawah"></div>
+            <div class="row spacing-bawah"></div> --}}
 
             {{-- Maskot --}}
             <div class="lighthouse">

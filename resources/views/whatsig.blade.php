@@ -4,8 +4,6 @@
 
 @section('css')
 <style>
-
-
     @font-face {
         font-family: 'Montserrat';
         font-style: normal;
@@ -24,17 +22,13 @@
         font-family:"Montserrat";
         letter-spacing:0px;
     }
-
     .whatsig-definition{
         padding-bottom:20px;
         font-family:"Montserrat";
     }
-
     .maskot{
         width:300px;    
     }
-
-
     .btn-register {
     background: rgba(255,255,255,0);
     border: 2px solid #2c56a7;
@@ -136,7 +130,7 @@
             <div class="col-5" style="margin-left:50px;">
                 {{--What's IG Title--}}
                 <div class="row md-5">
-                    <div clsss="col" style="width:fit-content; padding:3px; font-size:42px;">What is </div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat; font-size:42px;">What is </div>
                     <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat; font-weight:Bolder; font-size:42px;">INDUSTRIAL GAMES </div>
                     <div clsss="col" style="width:fit-content; padding:3px; font-size:42px;">?</div>
                 </div>
@@ -154,7 +148,6 @@
                 </a>
             </div>
         </div>
-        <div class="row spacing"></div>
 
         {{--Prize--}}
         {{-- Register title with horizontal line --}}
@@ -234,9 +227,9 @@
         </div>
 
         {{--Sponsor--}}
-        <div style="margin-top:-6rem;">
+        {{-- <div style="margin-top:-6rem;">
             @include('layouts.sponsor')
-        </div>
+        </div> --}}
         <div class="row spacing-bawah sponsor-section">
             <div class="sponsor-list"></div>
         </div>
