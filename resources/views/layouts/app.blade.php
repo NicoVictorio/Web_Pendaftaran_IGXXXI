@@ -15,24 +15,24 @@
     {{-- CSS Internal --}}
     <style>
         @font-face {
-            font-family: 'TT Norms Light';
+            font-family: 'Montserrat Light';
             font-style: normal;
             font-weight: bold;
-            src: local('TT Norms Light'), url('assets/font/TTNorms-Light.otf');
+            src: local('Montserrat'), url('assets/font/Montserrat-Light.ttf');
         }
 
         @font-face {
-            font-family: 'TT Norms Medium';
+            font-family: 'Montserrat Medium';
             font-style: normal;
             font-weight: normal;
-            src: local('TT Norms Medium'), url('assets/font/TTNorms-Medium.woff') format('woff');
+            src: local('Montserrat'), url('assets/font/Montserrat-Medium.ttf');
         }
 
         @font-face {
-            font-family: 'TT Norms Bold';
+            font-family: 'Montserrat Bold';
             font-style: normal;
             font-weight: normal;
-            src: local('TT Norms Bold'), url('assets/font/TTNorms-Bold.woff') format('woff');
+            src: local('Montserrat'), url('assets/font/Montserrat-Bold.ttf');
         }
 
         .footer-container {
@@ -72,7 +72,7 @@
 
         .nav-link,
         .nav-link:focus {
-            font-family: 'TT Norms Bold';
+            font-family: 'Montserrat Bold';
             color: #2c56a7;
             border-radius: 5px;
         }
@@ -139,7 +139,7 @@
                 </ul>
 
                 {{-- Buttons --}}
-                <form class="d-flex gap-4" role="search" style="font-family: 'TT Norms Bold';">
+                <form class="d-flex gap-4" role="search" style="font-family: 'Montserrat Bold';">
                     <a class="btn btn-outline rounded-pill" id="navRegister" href="{{ route('register') }}">REGISTER
                         NOW</a>
                 </form>

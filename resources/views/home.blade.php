@@ -15,16 +15,16 @@
     }
 
     h2 {
-        font-family: 'TT Norms Bold';
+        font-family: 'Montserrat Bold';
     }
 
     h3,
     h4 {
-        font-family: 'TT Norms Medium';
+        font-family: 'Montserrat Medium';
     }
 
     p {
-        font-family: 'TT Norms Light';
+        font-family: 'Montserrat Light';
     }
 
     .fix-image {
