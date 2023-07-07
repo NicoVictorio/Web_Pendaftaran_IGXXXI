@@ -5,10 +5,10 @@
 @section('css')
 <style>
     @font-face {
+        src: local('Montserrat'), url('assets/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
-        src: local('Montserrat'), url('assets/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     }
     form {
         display: block;
@@ -18,12 +18,12 @@
     .whatsig-page{
         background-size:cover;
         color:#2c56a7;
-        font-family:"Montserrat";
+        font-family:"Montserrat Bold";
         letter-spacing:0px;
     }
     .whatsig-definition{
         padding-bottom:20px;
-        font-family:"Montserrat";
+        font-family:"Montserrat Light";
     }
     .maskot{
         width:300px;    
@@ -33,7 +33,7 @@
     border: 2px solid #2c56a7;
     transition: all 0.2s ease;
     color: #2c56a7;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat Medium';
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -129,9 +129,9 @@
             <div class="col-5" style="margin-left:50px;">
                 {{--What's IG Title--}}
                 <div class="row md-5">
-                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat; font-size:42px;">What is </div>
-                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat; font-weight:Bolder; font-size:42px;">INDUSTRIAL GAMES </div>
-                    <div clsss="col" style="width:fit-content; padding:3px; font-size:42px;">?</div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat Light; font-size:32px;">What is </div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-family:Montserrat Medium; font-weight:Bolder; font-size:32px;">INDUSTRIAL GAMES </div>
+                    <div clsss="col" style="width:fit-content; padding:3px; font-size:32px;font-family:Montserrat Medium;">?</div>
                 </div>
 
                 {{--What's IG text--}}
@@ -153,7 +153,7 @@
         <div class="row md-5 mx-5">
             <div class="col-5 offset-7 row align-items-center">
                 <div class="col-7"><hr class="horizontal-line"/></div>
-                <div class="col-5 prize-text" style="text-align:right;">PRIZE</div>
+                <div class="col-5 prize-text" style="text-align:right; font-family:Montserrat Bold;">PRIZE</div>
             </div>
         </div>
 
@@ -167,11 +167,11 @@
                             <img src="{{ asset('assets/img/Juara 1.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat Bold';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 1
                     </div>
                     <div class="row" style="font-size:18px;">
-                        <ul style="list-style-type:none; color:#000;">
+                        <ul style="list-style-type:none; color:#000; font-family:Montserrat Light;">
                             <li>Tabungan Rp6.000.000</li>
                             <li>Piala Bergilir Gubernur Jawa Timur</li>
                             <li>100% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
@@ -187,11 +187,11 @@
                             <img src="{{ asset('assets/img/Juara 2.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat Bold';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 2
                     </div>
                     <div class="row " style="font-size:18px;">
-                    <ul style="list-style-type:none; color:#000;">
+                    <ul style="list-style-type:none; color:#000; font-family:Montserrat Light;">
                         <li>Tabungan Rp4.000.000</li>
                         <li>75% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
@@ -206,11 +206,11 @@
                             <img src="{{ asset('assets/img/Juara 3.png') }}" style="width:180px;height:auto;">
                         </div>
                     </div>
-                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat';font-weight:Bolder; font-size:26px; padding:10px;">
+                    <div class="row d-flex flex-wrap justify-content-center" style="font-family:'Montserrat Bold';font-weight:Bolder; font-size:26px; padding:10px;">
                         JUARA 3
                     </div>
                     <div class="row" style="font-size:18px;">
-                    <ul style="list-style-type:none; color:#000;">
+                    <ul style="list-style-type:none; color:#000; font-family:Montserrat Light;">
                         <li>Tabungan Rp2.500.000</li>
                         <li>50% USP dan UPP Semester 1 (jika masuk Teknik Industri UBAYA)</li>
                         <li>Piala Tetap Rektor Ubaya</li>
