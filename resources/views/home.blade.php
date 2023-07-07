@@ -78,7 +78,7 @@
 
     .button-regis {
         background: transparent;
-        border: 1px solid #2C56A7;
+        border: 3px solid #2C56A7;
         border-radius: 1.5rem;
         box-sizing: border-box;
         color: #2C56A7;
