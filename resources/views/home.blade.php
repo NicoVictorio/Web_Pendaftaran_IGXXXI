@@ -226,27 +226,28 @@
     <div class="row-12 d-flex flex-wrap align-items-center justify-content-center">
         <div class="row align-items-center">
             <div class="col"> <!-- left side -->
-                <div class="col text-end" style="margin-bottom: 120px;">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px;">
-                    <p class="text-blue">00 Month 2023</p>
+                <div class="col text-end" style="margin-bottom: 150px;">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px; margin-left: 90px;">
+                    <p class="text-blue">25 Juni - 28 Agustus 2023</p>
                 </div>
                 <div class="col text-end">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/campustour.png" style="max-height: 60px;">
-                    <p class="text-blue">00 Month 2023</p>
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/campustour.png" style="max-height: 60px; margin-left: 90px;">
+                    <p class="text-blue">25 Juni - 28 Agustus 2023</p>
                 </div>
+                <br><br><br><br>
             </div>
-            <div class="col d-flex justify-content-center"> <!-- center side -->
+            <div class="col-lg-2 d-flex justify-content-center"> <!-- center side -->
                 <img class="fix-image timeline" src="{{ asset('assets') }}/img/tali.png" style="max-height: 700px;">
             </div>
             <div class="col text-start"> <!-- right side -->
-                <div class="col text-start" style="margin-bottom: 70px;">
+                <div class="col text-start" style="margin-top: 150px; margin-bottom: 150px;">
                     <img class="fix-image timeline" src="{{ asset('assets') }}/img/openregis.png" style="max-height: 90px;">
                     <p class="text-blue">00 Month - 00 Month 2023</p>
                 </div>
-                <div class="col text-start" style="margin-bottom: 70px;">
+                <!-- <div class="col text-start" style="margin-bottom: 70px;">
                     <img class="fix-image timeline" src="{{ asset('assets') }}/img/semifinal.png" style="max-height: 60px;">
                     <p class="text-blue">00 Month 2023</p>
-                </div>
+                </div> -->
                 <div class="col text-start">
                     <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px;">
                     <p class="text-blue">00 Month 2023</p>
@@ -303,12 +304,14 @@
     {{-- <div class="row spacing-bawah sponsor-section">
         <div class="sponsor-list"></div>
     </div> --}}
+
+    {{-- <div style="height: 500px; width: auto"></div> --}}
+    {{--hiasan--}}
+    <div>
+        <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
+    </div>
 </div>
 
-{{-- <div style="height: 500px; width: auto"></div> --}}
-{{--hiasan--}}
-<div>
-    <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
-</div>
+
 
 @endsection
