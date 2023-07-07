@@ -8,7 +8,6 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: normal;
-        /*src: local('Montserrat'), url('assets/font/TTNorms-Regular.woff') format('woff');*/
         src: local('Montserrat'), url('assets/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     }
     form {
