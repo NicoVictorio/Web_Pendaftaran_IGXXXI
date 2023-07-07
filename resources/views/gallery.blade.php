@@ -55,7 +55,7 @@
 
         {{-- Indikator Galeri --}}
         <div class="carousel-indicators">
-            @for ($i = 0; $i < 10; $i++)
+            @for ($i = 0; $i < 9; $i++)
                 @if ($i == 0)
                     <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="{{ $i }}"
                         class="active" aria-current="true" aria-label="Slide {{ $i + 1 }}"
@@ -69,7 +69,7 @@
 
         {{-- Foto Galeri --}}
         <div class="carousel-inner">
-            @for ($i = 0; $i < 10; $i++)
+            @for ($i = 0; $i < 9; $i++)
                 @if ($i == 0)
                     <div class="carousel-item active">
                         <div class="container-img">
