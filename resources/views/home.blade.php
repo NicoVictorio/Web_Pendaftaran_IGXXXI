@@ -115,6 +115,7 @@
 
     .bg-text{
         border-radius: 20px;
+        padding: 20px;
         max-width: 500px;
         transition: all 0.2s ease;
         background: #c3e2f6; 
@@ -227,30 +228,30 @@
         <div class="row align-items-center">
             <div class="col"> <!-- left side -->
                 <div class="col text-end" style="margin-bottom: 150px;">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px; margin-left: 90px;">
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/opreg.png" style="max-height: 60px; margin-left: 65px;">
                     <p class="text-blue">25 Juni - 28 Agustus 2023</p>
                 </div>
                 <div class="col text-end">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/campustour.png" style="max-height: 60px; margin-left: 90px;">
-                    <p class="text-blue">25 Juni - 28 Agustus 2023</p>
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/game_semifinal.png" style="max-height: 60px; margin-left: 75px;">
+                    <p class="text-blue">9 September 2023</p>
                 </div>
                 <br><br><br><br>
             </div>
             <div class="col-lg-2 d-flex justify-content-center"> <!-- center side -->
-                <img class="fix-image timeline" src="{{ asset('assets') }}/img/tali.png" style="max-height: 700px;">
+                <img class="fix-image timeline" src="{{ asset('assets') }}/img/tali.png" style="max-height: 700px; margin-left: 25px;">
             </div>
             <div class="col text-start"> <!-- right side -->
                 <div class="col text-start" style="margin-top: 150px; margin-bottom: 150px;">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/openregis.png" style="max-height: 90px;">
-                    <p class="text-blue">00 Month - 00 Month 2023</p>
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/opreg.png" style="max-height: 60px;">
+                    <p class="text-blue">2 September 2023</p>
                 </div>
                 <!-- <div class="col text-start" style="margin-bottom: 70px;">
                     <img class="fix-image timeline" src="{{ asset('assets') }}/img/semifinal.png" style="max-height: 60px;">
                     <p class="text-blue">00 Month 2023</p>
                 </div> -->
                 <div class="col text-start">
-                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/gamebesar.png" style="max-height: 60px;">
-                    <p class="text-blue">00 Month 2023</p>
+                    <img class="fix-image timeline" src="{{ asset('assets') }}/img/final.png" style="max-height: 60px;">
+                    <p class="text-blue">10 September 2023</p>
                 </div>
             </div>
         </div>
@@ -280,8 +281,7 @@
                             <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
                                         PM</span></i></p>
                             <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio
-                                quibusdam fugit odio harum eveniet excepturi.</p>
+                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -290,8 +290,7 @@
                             <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
                                         PM</span></i></p>
                             <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo, minus autem distinctio
-                                quibusdam fugit odio harum eveniet excepturi.</p>
+                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
                     </div>
                 </div>
             </div>
