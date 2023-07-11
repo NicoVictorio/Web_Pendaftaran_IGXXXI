@@ -257,60 +257,56 @@
         </div>
     </div>
 </div>
+{{-- End Of Timeline --}}
 
-    {{-- End Of Timeline --}}
-
-    {{-- Info --}}
-    <div class="row">
-        <div class="col-12 d-flex flex-wrap justify-content-start align-items-center mb-3 mt-5">
-            <h2 class="me-5 text-blue">INFO</h2>
-            <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
-        </div>
-        <div class="col-10 col-lg-4">
-            <div><img class="fix-image poster" src="{{ asset('assets') }}/img/Poster.png" style="max-height: 700px;"></div>
-        </div>
-        <div class="col-12 col-lg-6">
-            <h2 class="text-blue">PENDAFTARAN BATCH 1<br>SUDAH DIBUKA !</h2>
-            {{-- Button --}}
-            <button class="button-regis my-2" role="button" onclick="location.href='{{ route('register') }}'">REGISTER NOW</button>
-            <div class="row">
-                <h3 class="text-thin mt-4">See More Info</h3>
-                <div class="col-md-6">
-                    <div class="bg-text">
-                        <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
-                            <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
-                                        PM</span></i></p>
-                            <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="bg-text">
-                        <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
-                            <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
-                                        PM</span></i></p>
-                            <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
-                                sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
-                    </div>
+{{-- Info --}}
+<div class="row">
+    <div class="col-12 d-flex flex-wrap justify-content-start align-items-center mb-3 mt-5">
+        <h2 class="me-5 text-blue">INFO</h2>
+        <div style="background-color: #2C56A7; height:2.5px; width:50%"></div>
+    </div>
+    <div class="col-10 col-lg-4">
+        <div><img class="fix-image poster" src="{{ asset('assets') }}/img/Poster.png" style="max-height: 700px;"></div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <h2 class="text-blue">PENDAFTARAN BATCH 1<br>SUDAH DIBUKA !</h2>
+        {{-- Button --}}
+        <button class="button-regis my-2" role="button" onclick="location.href='{{ route('register') }}'">REGISTER NOW</button>
+        {{-- <div class="row">
+            <h3 class="text-thin mt-4">See More Info</h3>
+            <div class="col-md-6">
+                <div class="bg-text">
+                    <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
+                        <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
+                                    PM</span></i></p>
+                        <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
                 </div>
             </div>
-        </div>
-    </div>
-
-    {{-- <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
-        @include('layouts.sponsor')
-    </div> --}}
-    {{-- <div class="row spacing-bawah sponsor-section">
-        <div class="sponsor-list"></div>
-    </div> --}}
-
-    {{-- <div style="height: 500px; width: auto"></div> --}}
-    {{--hiasan--}}
-    <div>
-        <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
+            <div class="col-md-6">
+                <div class="bg-text">
+                    <h4 class="text-blue">Lorem ipsum dolor sit.</h4>
+                    <p class="text-blue"><i>00 Month 2022 <span style="color:#D3D3D3; font-weight:100">00:00
+                                PM</span></i></p>
+                    <p class="text-blue mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Praesentium deserunt quo.</p>
+                </div>
+            </div>
+        </div> --}}
     </div>
 </div>
 
+{{-- <div style="margin-top:3rem; font-family: Montserrat Thin; color: #2c56a7;">
+    @include('layouts.sponsor')
+</div> --}}
+{{-- <div class="row spacing-bawah sponsor-section">
+    <div class="sponsor-list"></div>
+</div> --}}
 
+{{-- <div style="height: 500px; width: auto"></div> --}}
+{{--hiasan--}}
 
+<div>
+    <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
+</div>
 @endsection
