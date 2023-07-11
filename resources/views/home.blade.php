@@ -309,4 +309,5 @@
 <div>
     <img class="hiasan" src="{{ asset('assets') }}/img/hiasan-home.png" alt="">
 </div>
+</div>
 @endsection
