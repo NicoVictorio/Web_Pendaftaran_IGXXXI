@@ -114,7 +114,7 @@
         <div class="container-fluid gap-5">
             {{-- Logo IG --}}
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('assets') }}/logo/Logo_IG_Header.png" alt="Logo IGXXX" style="max-height: 40px">
+                <img src="{{ asset('assets') }}/logo/Logo Besar_Home.png" alt="Logo IGXXX" style="max-height: 40px">
             </a>
 
             {{-- Menus --}}

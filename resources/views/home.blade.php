@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section("title", "Industrial Games 30")
+@section("title", "Industrial Games 31")
 
 @section('css')
 <style>
